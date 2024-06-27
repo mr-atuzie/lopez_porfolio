@@ -88,61 +88,59 @@ const Navbar = () => {
         </a>
       </div>
 
-     
+     */}
 
       {nav && (
-        <div className=" z-30 duration-300 flex flex-col fixed  shadow-md bg-gray-50 top-0 right-0  w-[90vw] h-screen">
-          <div className=" bg-white p-4 flex justify-between items-center">
-            <div>
-              <h1 className="  text-xl lg:text-5xl font-semibold ">
-                Rex atuzie
-              </h1>
-              <p className=" text-gray-500 font-medium text-xs">
-                Frontend Developer
-              </p>
-            </div>
-            <div
-              onClick={() => setNav(!nav)}
-              className=" cursor-pointer  p-4 md:hidden"
+        <div className=" z-50 duration-300 py-6 flex flex-col fixed  shadow-lg bg-gray-100 top-[60px] right-0  w-full ">
+          <ul className=" w-full flex justify-end uppercase   flex-col items-end">
+            <li
+              onClick={() => navigate("/")}
+              className=" p-3  cursor-pointer font-semibold uppercase underline     hover:scale-105 duration-200"
             >
-              {nav ? (
-                <IoCloseOutline size={30} />
-              ) : (
-                <HiOutlineBars3 size={30} />
-              )}
-            </div>
-          </div>
-          <ul className=" mt-11 ">
-            {links.map(({ id, link }) => {
-              return (
-                <li
-                  key={id}
-                  className=" px-4 cursor-pointer capitalize  mb-5  hover:scale-105 duration-200"
-                >
-                  <Link
-                    onClick={() => setNav(false)}
-                    activeClass="active"
-                    to={link}
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    {link}
-                  </Link>
-                </li>
-              );
-            })}
+              Home
+            </li>
+            <li className=" p-3  cursor-pointer font-semibold uppercase underline    hover:scale-105 duration-200">
+              <Link
+                onClick={() => setNav(false)}
+                activeClass="active"
+                to={"About"}
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                About
+              </Link>
+            </li>
+            <li className=" p-3  cursor-pointer font-semibold uppercase underline    hover:scale-105 duration-200">
+              <Link
+                onClick={() => setNav(false)}
+                activeClass="active"
+                to={"Projects"}
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Projects
+              </Link>
+            </li>
+            <li className=" p-3 cursor-pointer font-semibold uppercase underline    hover:scale-105 duration-200">
+              <Link
+                onClick={() => setNav(false)}
+                activeClass="active"
+                to={"Contact"}
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Contact
+              </Link>
+            </li>
           </ul>
-          <a
-            className=" m-4 rounded-full  bg-black text-white px-4 py-3 capitalize hover:bg-white hover:text-black hover:border-2 hover:border-black "
-            href={resume}
-            download
-          >
-            Download Resume
-          </a>
         </div>
-      )} */}
+      )}
     </nav>
   );
 };
