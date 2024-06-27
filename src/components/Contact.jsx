@@ -10,7 +10,7 @@ const Contact = () => {
 
           <p className=" text-sm lg:text-xl max-w-2xl text-center my-4 text-gray-400">
             Feel free to Contact me by submitting the form below and I will get
-            back to you as soon as possible
+            back to you
           </p>
         </div>
         <form className=" lg:w-[60%] mx-auto rounded shadow-md bg-[#404040] my-8 py-6 lg:py-12 px-4 lg:px-8">

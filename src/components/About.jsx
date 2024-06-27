@@ -27,7 +27,7 @@ const About = () => {
 
           <p className=" text-sm lg:text-xl lg:max-w-2xl text-center font-medium my-4 text-gray-400">
             Here you will find more information about me, what I do, and my
-            current skills mostly in terms of programming and technology
+            current skills
           </p>
         </div>
 

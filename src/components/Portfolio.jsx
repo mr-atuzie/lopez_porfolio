@@ -13,7 +13,7 @@ const Portfolio = () => {
 
           <p className=" text-sm lg:text-xl lg:max-w-2xl text-center my-4 text-gray-400">
             Here you will find some of the personal and clients projects that I
-            created with each project containing its own case study
+            created
           </p>
         </div>
 
