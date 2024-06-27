@@ -13,7 +13,7 @@ const Hero = () => {
             HEY, I'M REX ATUZIE
           </h1>
 
-          <p className=" lg:text-xl font-medium my-2 lg:my-4 text-gray-400">
+          <p className="  lg:text-xl font-medium my-2 lg:my-4 text-gray-400">
             A Result-Oriented Web Developer building and managing Websites and
             Web Applications that leads to the success of the overall product
           </p>

@@ -33,7 +33,7 @@ const About = () => {
 
         <div className="  lg:flex lg:justify-between my-8">
           <div className=" lg:w-[45%]">
-            <h1 className=" font-bold text-2xl mb-2 lg:mb-4 text-gray-300">
+            <h1 className=" font-bold text-xl lg:text-2xl mb-2 lg:mb-4 text-gray-300">
               Get to know me
             </h1>
 
@@ -48,11 +48,7 @@ const About = () => {
               nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Sed natus fuga perspiciatis qui voluptate praesentium,
               exercitationem debitis rerum odit magnam ipsam possimus officiis
-              eum, non vitae facere, repudiandae beatae nostrum. Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Sed natus fuga
-              perspiciatis qui voluptate praesentium, exercitationem debitis
-              rerum odit magnam ipsam possimus officiis eum, non vitae facere,
-              repudiandae beatae nostrum.
+              eum, non vitae facere.
             </p>
 
             <br />
@@ -75,7 +71,7 @@ const About = () => {
           </div>
 
           <div className=" lg:w-[45%]">
-            <h1 className=" font-bold text-gray-300 text-2xl mb-4">
+            <h1 className=" font-bold text-gray-300 text-xl lg:text-2xl mb-4">
               My Skills
             </h1>
 

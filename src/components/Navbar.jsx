@@ -16,15 +16,17 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="  w-full sticky top-0  z-50 py-3 lg:py-4 bg-gray-100  ">
-      <div className=" w-[80%] mx-auto flex justify-between items-center">
+    <nav className="  w-full sticky top-0  z-50 py-3 lg:py-4 bg-[#141414]">
+      <div className="w-[90%] lg:w-[80%] mx-auto flex justify-between items-center">
         <div className=" flex items-center gap-3">
           <img
             src={logo}
             alt=""
-            className=" w-[50px] h-[50px] object-cover rounded-full"
+            className=" h-[40px] w-[40px] lg:w-[50px] lg:h-[50px] object-cover rounded-full"
           />
-          <h1 className=" uppercase  text-xl  font-bold  ">Rex atuzie</h1>
+          <h1 className=" uppercase text-gray-300  text-lg lg:text-xl  font-bold  ">
+            Rex atuzie
+          </h1>
         </div>
 
         <ul className="hidden lg:flex gap-8">
@@ -42,7 +44,7 @@ const Navbar = () => {
 
         <button
           onClick={() => setNav(!nav)}
-          className=" cursor-pointer  md:hidden"
+          className=" text-gray-300 cursor-pointer  md:hidden"
         >
           {nav ? <IoCloseOutline size={30} /> : <HiOutlineBars3 size={30} />}
         </button>
