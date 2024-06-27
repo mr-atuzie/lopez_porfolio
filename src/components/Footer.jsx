@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className=" bg-black">
+    <footer className="">
       <div className=" w-[90%] lg:w-[80%] mx-auto  py-16">
         <div className=" flex-col gap-5 lg:gap-0 lg:flex-row flex justify-between">
           <div>
@@ -23,7 +23,7 @@ const Footer = () => {
               SOCIALS
             </h1>
 
-            <div className=" text-gray-400 flex gap-4 ">
+            <div className=" text-gray-400 flex gap-6 ">
               <a
                 href=" https://twitter.com/IkwerreG"
                 target="_blank"
