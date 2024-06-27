@@ -92,10 +92,10 @@ const Navbar = () => {
 
       {nav && (
         <div className=" z-50 duration-300 py-6 flex flex-col fixed  shadow-lg bg-gray-100 top-[60px] right-0  w-full ">
-          <ul className=" w-full flex justify-end uppercase   flex-col items-end">
+          <ul className=" w-full flex justify-end uppercase   flex-col ">
             <li
               onClick={() => navigate("/")}
-              className=" p-3  cursor-pointer font-semibold uppercase underline     hover:scale-105 duration-200"
+              className=" p-3  cursor-pointer font-semibold uppercase underline      hover:scale-105 duration-200"
             >
               Home
             </li>
