@@ -5,15 +5,11 @@ import { IoCloseOutline } from "react-icons/io5";
 import logo from "../assets/me.jpg";
 
 import { Link } from "react-scroll";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const links = [
-    { id: 1, link: "home" },
-    { id: 3, link: "About" },
-    { id: 2, link: "projects" },
-    { id: 5, link: "Contact" },
-  ];
+  const navigate = useNavigate();
 
   return (
     <nav className="  w-full sticky top-0  z-50 py-3 lg:py-4 bg-[#141414]">
@@ -30,16 +26,46 @@ const Navbar = () => {
         </div>
 
         <ul className="hidden lg:flex gap-8">
-          {links.map(({ id, link }) => {
-            return (
-              <li
-                key={id}
-                className=" text-gray-300  cursor-pointer font-bold  uppercase text-xl"
-              >
-                <Link>{link}</Link>
-              </li>
-            );
-          })}
+          <li
+            onClick={() => navigate("/")}
+            className=" text-gray-300  cursor-pointer font-bold  uppercase text-xl"
+          >
+            HOME
+          </li>
+
+          <li className=" text-gray-300  cursor-pointer font-bold  uppercase text-xl">
+            <Link
+              to={"About"}
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              About
+            </Link>
+          </li>
+          <li className=" text-gray-300  cursor-pointer font-bold  uppercase text-xl">
+            <Link
+              to={"Projects"}
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Projects
+            </Link>
+          </li>
+          <li className=" text-gray-300  cursor-pointer font-bold  uppercase text-xl">
+            <Link
+              to={"Contact"}
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
 
         <button

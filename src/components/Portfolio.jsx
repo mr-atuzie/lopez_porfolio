@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
-    <section name="portfolio" className=" w-full  lg:py-10   ">
+    <section name="Projects" className=" w-full  lg:py-10   ">
       <div className=" mb-5 mx-auto w-[90%]  lg:w-[80%]">
         <div className=" flex flex-col justify-center items-center mb-6 ">
           <div className=" font-bold text-3xl text-gray-300">PROJECTS</div>
