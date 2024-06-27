@@ -17,7 +17,7 @@ const Project = () => {
       <div className=" w-[90%] lg:w-[50%] flex flex-col gap-10 mx-auto mb-10">
         <img className=" " src={desktop} alt="" />
         <div>
-          <h1 className=" font-bold text-gray-300 mb-3  text-3xl">
+          <h1 className=" font-bold text-gray-300 mb-3  text-xl lg:text-3xl">
             Project Overview
           </h1>
           <p className=" text-gray-400 lg:text-lg">
@@ -42,7 +42,9 @@ const Project = () => {
         </div>
 
         <div>
-          <h1 className=" font-bold text-gray-300 mb-3  text-3xl">Tool used</h1>
+          <h1 className=" font-bold text-gray-300 mb-3 text-xl  lg:text-3xl">
+            Tool used
+          </h1>
           <div className=" flex gap-4 flex-wrap">
             {skills.map((skill, index) => {
               return (
@@ -58,14 +60,16 @@ const Project = () => {
         </div>
 
         <div>
-          <h1 className=" font-bold text-gray-300 mb-3  text-3xl">Tool used</h1>
+          <h1 className=" font-bold text-gray-300 mb-3 text-xl  lg:text-3xl">
+            Tool used
+          </h1>
 
           <div className=" flex gap-3">
-            <button className="  rounded uppercase bg-purple-700 text-lg font-semibold text-white px-8 py-2 lg:py-4  hover:bg-purple-100 hover:text-purple-700   ">
+            <button className="  rounded uppercase bg-purple-700 lg:text-lg font-semibold text-white px-8 py-2 lg:py-4  hover:bg-purple-100 hover:text-purple-700   ">
               Project Link
             </button>
 
-            <button className="  rounded uppercase bg-purple-700 text-lg font-semibold text-white px-8 py-2 lg:py-4  hover:bg-purple-100 hover:text-purple-700   ">
+            <button className="  rounded uppercase bg-purple-700 lg:text-lg font-semibold text-white px-8 py-2 lg:py-4  hover:bg-purple-100 hover:text-purple-700   ">
               Github repo
             </button>
           </div>
