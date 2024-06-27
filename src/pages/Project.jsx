@@ -56,6 +56,20 @@ const Project = () => {
             })}
           </div>
         </div>
+
+        <div>
+          <h1 className=" font-bold text-gray-300 mb-3  text-3xl">Tool used</h1>
+
+          <div>
+            <button className="  rounded uppercase bg-purple-700 text-lg font-semibold text-white px-8 py-2 lg:py-4  hover:bg-purple-100 hover:text-purple-700   ">
+              Project Link
+            </button>
+
+            <button className="  rounded uppercase bg-purple-700 text-lg font-semibold text-white px-8 py-2 lg:py-4  hover:bg-purple-100 hover:text-purple-700   ">
+              Github repo
+            </button>
+          </div>
+        </div>
       </div>
     </section>
   );
