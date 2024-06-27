@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Project from "./pages/Project";
+import Footer from "./components/Footer";
 // import Portfolio from "./components/Portfolio";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="project/:id" element={<Project />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </>
   );
 }

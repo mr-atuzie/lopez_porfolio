@@ -6,7 +6,7 @@ import { FaYoutube } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section className=" w-full relative h-[50vh] lg:h-[75vh]">
+    <section className=" w-full relative h-[60vh] lg:h-[75vh]">
       <div className=" w-[90%] h-full mx-auto flex justify-center items-center">
         <div className=" max-w-xl text-center">
           <h1 className=" text-3xl lg:text-5xl font-bold text-gray-300">

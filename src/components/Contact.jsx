@@ -52,7 +52,7 @@ const Contact = () => {
           </div>
 
           <div className=" w-full flex justify-end">
-            <button className="  rounded uppercase bg-purple-700 text-lg font-semibold text-white px-8 py-4  hover:bg-white hover:text-purple-700 hover:border-2 hover:border-purple-700 ">
+            <button className="  rounded uppercase bg-purple-700 text-lg font-semibold text-white px-8 py-2 lg:py-4  hover:bg-white hover:text-purple-700 hover:border-2 hover:border-purple-700 ">
               SUBMIT
             </button>
           </div>

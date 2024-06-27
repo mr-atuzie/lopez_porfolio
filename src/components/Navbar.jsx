@@ -34,7 +34,7 @@ const Navbar = () => {
             return (
               <li
                 key={id}
-                className="  cursor-pointer font-bold  uppercase text-xl"
+                className=" text-gray-300  cursor-pointer font-bold  uppercase text-xl"
               >
                 <Link>{link}</Link>
               </li>
