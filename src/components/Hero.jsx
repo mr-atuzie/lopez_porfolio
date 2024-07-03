@@ -25,7 +25,7 @@ const Hero = () => {
 
         <div className="hidden lg:flex rounded-r-md  shadow-lg text-gray-100 bg-[#404040] flex-col gap-4 py-6 px-3 absolute left-0">
           <a
-            href=" https://twitter.com/IkwerreG"
+            href="https://www.linkedin.com/in/rex-atuzie-0ab678205/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -33,7 +33,7 @@ const Hero = () => {
           </a>
 
           <a
-            href=" https://twitter.com/IkwerreG"
+            href="https://twitter.com/AtuzieR"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -41,7 +41,7 @@ const Hero = () => {
           </a>
 
           <a
-            href=" https://twitter.com/IkwerreG"
+            href="https://github.com/mr-atuzie/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -49,7 +49,7 @@ const Hero = () => {
           </a>
 
           <a
-            href=" https://twitter.com/IkwerreG"
+            href="https://youtube.com/@atuzierex?si=oPuHj02gvuOV5X9F"
             target="_blank"
             rel="noopener noreferrer"
           >

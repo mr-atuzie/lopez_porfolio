@@ -9,11 +9,13 @@ import Project from "./pages/Project";
 import Footer from "./components/Footer";
 // import Portfolio from "./components/Portfolio";
 import { Toaster } from "react-hot-toast";
+import ScrollTop from "./components/ScrollTop";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollTop />
         <Navbar />
         <Toaster position="top-center" reverseOrder={false} />
         <Routes>

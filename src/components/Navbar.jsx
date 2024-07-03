@@ -91,7 +91,7 @@ const Navbar = () => {
      */}
 
       {nav && (
-        <div className=" z-50 duration-300 py-6 flex flex-col fixed  shadow-lg bg-gray-100 top-[60px] right-0  w-full ">
+        <div className=" z-50 duration-300 py-6 flex flex-col fixed  shadow-lg bg-black text-gray-300 h-[40vh] top-[60px] right-0  w-full ">
           <ul className=" w-full flex justify-end uppercase   flex-col ">
             <li
               onClick={() => navigate("/")}
