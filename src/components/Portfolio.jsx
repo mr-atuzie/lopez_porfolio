@@ -1,5 +1,5 @@
 import React from "react";
-import desktop from "../assets/test.png";
+// import desktop from "../assets/test.png";
 import { Link } from "react-router-dom";
 import { webPortfolio } from "../data";
 // import { BsLink45Deg } from "react-icons/bs";
@@ -20,13 +20,13 @@ const Portfolio = () => {
         </div>
 
         {webPortfolio.map((project) => {
-          const { id, name, desc } = project;
+          const { id, name, desc, img } = project;
           return (
             <div
               key={id}
               className=" flex-col  lg:flex-row flex justify-between items-center mb-14"
             >
-              <img className=" lg:w-[50%]" src={desktop} alt="" />
+              <img className=" lg:w-[50%]" src={img} alt="" />
 
               <div className=" lg:w-[45%]">
                 <h1 className=" font-bold text-gray-300 text-lg mt-2 lg:text-2xl">
