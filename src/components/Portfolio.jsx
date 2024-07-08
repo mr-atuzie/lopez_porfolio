@@ -26,7 +26,11 @@ const Portfolio = () => {
               key={id}
               className=" flex-col  lg:flex-row flex justify-between items-center mb-14"
             >
-              <img className=" lg:w-[50%]" src={img} alt="" />
+              <img
+                className=" border-8 border-[#404040] lg:w-[50%]"
+                src={img}
+                alt=""
+              />
 
               <div className=" lg:w-[45%]">
                 <h1 className=" font-bold text-gray-300 text-lg mt-2 lg:text-2xl">
