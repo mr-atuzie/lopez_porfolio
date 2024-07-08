@@ -1,6 +1,6 @@
 import ec from "./assets/ecomm.png";
 import book from "./assets/booking.png";
-import ph from "./assets/dopefolio-removebg-preview.png";
+import ph from "./assets/test.png";
 export const webPortfolio = [
   {
     id: 1,
