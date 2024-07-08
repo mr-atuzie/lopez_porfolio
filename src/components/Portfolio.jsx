@@ -1,5 +1,5 @@
 import React from "react";
-import desktop from "../assets/dopefolio-removebg-preview.png";
+import desktop from "../assets/test.png";
 import { Link } from "react-router-dom";
 import { webPortfolio } from "../data";
 // import { BsLink45Deg } from "react-icons/bs";
