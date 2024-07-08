@@ -27,7 +27,7 @@ const Portfolio = () => {
               className=" flex-col  lg:flex-row flex justify-between items-center mb-14"
             >
               <img
-                className=" border-8 border-[#404040] lg:w-[50%]"
+                className=" border-[16px] rounded shadow-md border-[#404040] lg:w-[50%]"
                 src={img}
                 alt=""
               />
