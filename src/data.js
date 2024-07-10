@@ -1,5 +1,6 @@
 import ec from "./assets/ecomm.png";
 import book from "./assets/booking.png";
+import form from "./assets/2fa_form.png";
 import ph from "./assets/test.png";
 export const webPortfolio = [
   {
@@ -49,7 +50,7 @@ export const webPortfolio = [
   {
     id: 3,
     name: "SecureAuth",
-    img: ph,
+    img: form,
     desc: "SecureAuth is a secure authentication platform designed to implement Two-Factor Authentication (2FA) using email. The project is built using the MERN stack (MongoDB, Express.js, React, Node.js) with Tailwind CSS for styling. It provides a robust authentication mechanism that enhances security by requiring users to verify their identity through a code sent to their email.",
     extra:
       "Some key features includes User registration and login,JWT-based authentication for session management,Sending a unique verification code to the user's email during login,Integration with an email service Nodemailer to send verification codes",
