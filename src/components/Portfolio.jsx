@@ -20,28 +20,43 @@ const Portfolio = () => {
         </div>
 
         {webPortfolio.map((project) => {
-          const { id, name, desc, img } = project;
+          const { id, name, desc, img, link } = project;
           return (
             <div
               key={id}
               className=" flex-col  lg:flex-row flex justify-between items-center mb-14"
             >
-              <img
+              <a
                 className=" border-[12px] rounded shadow-md border-[#404040] lg:w-[50%]"
-                src={img}
-                alt=""
-              />
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={img} alt="" />
+              </a>
 
               <div className=" lg:w-[45%]">
                 <h1 className=" font-bold text-gray-300 text-lg mt-2 lg:text-2xl">
                   {name}
                 </h1>
                 <p className=" my-3 text-gray-400 lg:text-xl">{desc}</p>
-                <Link to={"/project/" + id}>
-                  <button className="  rounded uppercase bg-purple-700 text-lg font-semibold text-white px-8 py-2 lg:py-4  hover:bg-purple-100 hover:text-purple-700   ">
-                    CASE STUDY
-                  </button>
-                </Link>
+
+                <div className=" flex  gap-5 mt-3">
+                  <Link to={"/project/" + id}>
+                    <button className="  rounded uppercase bg-purple-700 lg:text-lg font-semibold text-white px-8 py-2 lg:py-4  hover:bg-purple-100 hover:text-purple-700   ">
+                      View more
+                    </button>
+                  </Link>
+
+                  <a
+                    className="  rounded uppercase bg-purple-700 lg:text-lg font-semibold text-white px-8 py-2 lg:py-4  hover:bg-purple-100 hover:text-purple-700   "
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    use demo
+                  </a>
+                </div>
               </div>
             </div>
           );

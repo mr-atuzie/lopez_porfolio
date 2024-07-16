@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/fs.pdf";
+import resume from "../../src/assets/rex atuzie fullstack dev july.pdf";
 
 const About = () => {
   const skills = [
@@ -39,32 +39,30 @@ const About = () => {
 
             <p className=" lg:text-lg text-gray-400">
               I'm a <strong>Fullstack Developer </strong> with over 2 years of
-              experience,that specializes on using the MERN stack
-              (MongoDB,Express Js,React Js,Node Js)in building and managing Web
-              Applications. enabling me to handle both frontend and backend
-              development with ease.
+              experience,that specializes on using the MERN stack{" "}
+              <strong>(MongoDB,Express Js,React Js,Node Js)</strong> in building
+              and managing Web Applications. enabling me to handle both frontend
+              and backend development with ease.
             </p>
 
             <p className=" text-gray-400 lg:text-lg my-4 lg:my-8">
-              I am proficient in creating responsive and intuitive user
-              interfaces using React and Tailwind CSS, to ensure rapid and
-              efficient UI development. My backend skills are rooted in Node.js
-              and Express.js, where I design robust APIs and manage complex
-              databases using MongoDB. <br /> I have successfully delivered
-              several projects, ranging from e-commerce platforms to property
-              booking systems, showcasing my ability to integrate third-party
-              services like payment gateways and email notifications. My
-              development process includes thorough testing and deployment,
-              ensuring that each application I build is not only functional but
-              also secure and reliable.
+              My primary tools for frontend development are{" "}
+              <strong> React Js</strong> and <strong>Tailwind CSS</strong> which
+              enable me build dynamic and visually appealing user interface that
+              provide an excellent user experience across all devices.I use{" "}
+              <strong>Redux</strong> for efficient state management, ensuring
+              seamless and predictable data flow within my applications. <br />{" "}
+              On the backend, I primarily work with <strong>Node Js</strong> and{" "}
+              <strong>Express Js</strong> and <strong>MongoDB</strong>to design
+              RESTful APIs, managing databases, and ensuring secure and
+              efficient data handling.
+              <br />
             </p>
 
             <p className=" text-gray-400 lg:text-lg">
               I'm open to <strong>Job</strong> opportunities where I can
-              contribute, learn and grow. If you have a good opportunity that
-              matches my skills and experience then don't hesitate to{" "}
-              <strong>contact</strong>
-              me.
+              contribute to projects that challeneges my abilities and expand my
+              expertise.
             </p>
 
             <div className=" my-7">
