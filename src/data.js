@@ -23,7 +23,7 @@ export const webPortfolio = [
       "GIT",
       "Netlify",
     ],
-    github: "https://github.com/mr-atuzie/ecomm_client",
+    github: "https://github.com/mr-atuzie/store_be",
     link: "https://ec-shop.netlify.app",
   },
   {

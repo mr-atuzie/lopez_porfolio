@@ -1,5 +1,4 @@
 import React from "react";
-import desktop from "../assets/dopefolio-removebg-preview.png";
 import { useParams } from "react-router-dom";
 import { webPortfolio } from "../data";
 
@@ -11,7 +10,16 @@ const Project = () => {
   return (
     <section>
       <div className=" w-[90%] lg:w-[50%] flex flex-col gap-10 mx-auto mb-10">
-        <img className=" " src={desktop} alt="" />
+        {/* <img className=" " src={project.img} alt="" /> */}
+
+        <a
+          className=" border-[12px] rounded shadow-md border-[#404040] "
+          href={project.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={project.img} alt="" />
+        </a>
         <div>
           <h1 className=" font-bold text-gray-300 mb-3  text-xl lg:text-3xl">
             Project Overview
@@ -43,13 +51,13 @@ const Project = () => {
 
         <div>
           <h1 className=" font-bold text-gray-300 mb-3 text-xl  lg:text-3xl">
-            Tool used
+            See live
           </h1>
 
           <div className=" flex gap-3">
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               <button className="  rounded uppercase bg-purple-700 lg:text-lg font-semibold text-white px-8 py-2 lg:py-4  hover:bg-purple-100 hover:text-purple-700   ">
-                Project Link
+                use demo
               </button>
             </a>
 
