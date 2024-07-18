@@ -6,7 +6,7 @@ import { FaYoutube } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section className=" w-full relative h-[60vh] lg:h-[75vh]">
+    <section className=" w-full relative h-[50vh] lg:h-[75vh]">
       <div className=" w-[90%] h-full mx-auto flex justify-center items-center">
         <div className=" max-w-xl text-center">
           <h1 className=" text-3xl lg:text-5xl font-bold text-gray-300">
@@ -14,9 +14,13 @@ const Hero = () => {
           </h1>
 
           <p className="  lg:text-xl font-medium my-2 lg:my-4 text-gray-400">
+            A results-oriented web developer creating and managing websites and
+            web applications that leads to the success of the product.
+          </p>
+          {/* <p className="  lg:text-xl font-medium my-2 lg:my-4 text-gray-400">
             A Result-Oriented Web Developer building and managing Websites and
             Web Applications that leads to the success of the overall product
-          </p>
+          </p> */}
 
           <button className=" uppercase bg-purple-700 px-8 py-2 lg:py-4 font-semibold rounded text-white text-lg hover:bg-purple-100 hover:text-purple-700  ">
             Projects

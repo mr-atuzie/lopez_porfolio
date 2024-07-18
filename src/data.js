@@ -7,9 +7,9 @@ export const webPortfolio = [
     id: 1,
     name: "Online store",
     img: ec,
-    desc: "Online store is an E-commerce platform that features  product browsing, user authentication, shopping cart management,search functionality and order processing, integrating Paystack as the online payment gateway to handle transactions securely.it was built using the MERN stack (MongoDB, Express.js, React, Node.js) with Redux for state management and Tailwind CSS for styling.",
+    desc: "Online store is an E-commerce platform that features Product listing with categories and search functionality,Add to cart and remove items, Persistent cart using MongoDB,Order creation and tracking and integrating Paystack as the online payment gateway to handle transactions securely.it was built using the MERN stack (MongoDB, Express.js, React, Node.js) with Redux for state management and Tailwind CSS for styling.",
     extra:
-      "Some key features includes User registration and login,JWT-based authentication,Product listing with categories and search functionality,Add to cart, update quantities, and remove items, Persistent cart using MongoDB,Order creation and tracking and Secure payment processing using Paystack, Optimized for various screen sizes and devices.",
+      "Some key features includes User registration and login,JWT-based authentication,Secure payment processing using Paystack, Optimized for various screen sizes and devices.",
     conclusion:
       "With a focus on user experience and secure payment processing, it aims to provide a comprehensive solution for online retail businesses.",
     stack: [

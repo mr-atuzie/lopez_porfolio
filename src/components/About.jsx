@@ -1,5 +1,6 @@
 import React from "react";
 import resume from "../../src/assets/rex atuzie fullstack dev july.pdf";
+import toast from "react-hot-toast";
 
 const About = () => {
   const skills = [
@@ -18,6 +19,10 @@ const About = () => {
     "Responsive Design",
     "SEO",
   ];
+
+  const downloadResume = () => {
+    toast.success("rex atuzie fullstack dev resume  downloded");
+  };
   return (
     <section id="About" name="about" className=" w-full  ">
       <div className=" w-[90%] lg:w-[80%]  mx-auto lg:py-10">
@@ -53,9 +58,9 @@ const About = () => {
               <strong>Redux</strong> for efficient state management, ensuring
               seamless and predictable data flow within my applications. <br />{" "}
               On the backend, I primarily work with <strong>Node Js</strong> and{" "}
-              <strong>Express Js</strong> and <strong>MongoDB</strong>to design
-              RESTful APIs, managing databases, and ensuring secure and
-              efficient data handling.
+              <strong>Express Js</strong> and <strong>MongoDB</strong> to design
+              <strong>RESTful APIs</strong>, managing databases, and ensuring
+              secure and efficient data handling.
               <br />
             </p>
 
@@ -70,6 +75,7 @@ const About = () => {
                 className="  rounded uppercase bg-purple-700 text-lg font-semibold text-white px-8 py-2 lg:py-4  hover:bg-purple-100 hover:text-purple-700  "
                 href={resume}
                 download
+                onClick={downloadResume}
               >
                 Download Resume
               </a>

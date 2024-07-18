@@ -14,4 +14,7 @@
     background-color: #141414;
     font-family: "Source Sans 3", sans-serif;
   }
+  strong {
+    @apply bg-blue-600;
+  }
 }
