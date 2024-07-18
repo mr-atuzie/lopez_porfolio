@@ -58,7 +58,7 @@ const About = () => {
               <strong>Redux</strong> for efficient state management, ensuring
               seamless and predictable data flow within my applications. <br />{" "}
               On the backend, I primarily work with <strong>Node Js</strong> and{" "}
-              <strong>Express Js</strong> and <strong>MongoDB</strong> to design
+              <strong>Express Js</strong> and <strong>MongoDB</strong> to design{" "}
               <strong>RESTful APIs</strong>, managing databases, and ensuring
               secure and efficient data handling.
               <br />

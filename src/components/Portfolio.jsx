@@ -28,7 +28,7 @@ const Portfolio = () => {
             >
               <a
                 className=" border-[12px] rounded shadow-md border-[#404040] lg:w-[50%]"
-                href={project.github}
+                href={link}
                 target="_blank"
                 rel="noopener noreferrer"
               >

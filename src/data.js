@@ -51,7 +51,7 @@ export const webPortfolio = [
     id: 3,
     name: "SecureAuth",
     img: form,
-    desc: "SecureAuth is a authentication platform designed to implement Two-Factor Authentication (2FA) using email.It provides a authentication mechanism that enhances security by requiring users to verify their identity through a code sent to their email and also Password Management (Forget and Reset Password). ",
+    desc: "SecureAuth is a authentication platform designed to implement Two-Factor Authentication (2FA) using email.It provides a authentication mechanism that enhances security by requiring users to verify their identity through a code sent to their email and also Password Management system for Forget and Reset Password. ",
     extra:
       "Some key features includes User registration and login,JWT-based authentication for session management,Sending a unique verification code to the user's email during login,Integration with an email service Nodemailer to send verification codes",
     conclusion:

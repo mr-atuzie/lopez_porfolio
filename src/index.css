@@ -15,6 +15,6 @@
     font-family: "Source Sans 3", sans-serif;
   }
   strong {
-    @apply text-blue-600;
+    @apply text-blue-700;
   }
 }
