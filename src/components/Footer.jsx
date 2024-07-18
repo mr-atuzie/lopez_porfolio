@@ -25,7 +25,7 @@ const Footer = () => {
 
             <div className=" text-gray-400 flex gap-6 ">
               <a
-                href=" https://twitter.com/IkwerreG"
+                href="https://www.linkedin.com/in/rex-atuzie-0ab678205/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -33,7 +33,7 @@ const Footer = () => {
               </a>
 
               <a
-                href=" https://twitter.com/IkwerreG"
+                href="https://twitter.com/AtuzieR"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -41,7 +41,7 @@ const Footer = () => {
               </a>
 
               <a
-                href=" https://twitter.com/IkwerreG"
+                href="https://github.com/mr-atuzie/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -49,7 +49,7 @@ const Footer = () => {
               </a>
 
               <a
-                href=" https://twitter.com/IkwerreG"
+                href="https://youtube.com/@atuzierex?si=oPuHj02gvuOV5X9F"
                 target="_blank"
                 rel="noopener noreferrer"
               >
