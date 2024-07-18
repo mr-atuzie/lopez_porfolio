@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -23,7 +24,15 @@ const Hero = () => {
           </p> */}
 
           <button className=" uppercase bg-purple-700 px-8 py-2 lg:py-4 font-semibold rounded text-white text-lg hover:bg-purple-100 hover:text-purple-700  ">
-            Projects
+            <Link
+              to={"Projects"}
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Projects
+            </Link>
           </button>
         </div>
 
