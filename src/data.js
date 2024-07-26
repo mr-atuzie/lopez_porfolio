@@ -1,7 +1,7 @@
 import ec from "./assets/ecomm.png";
 import book from "./assets/booking.png";
 import form from "./assets/2fa_form.png";
-import ph from "./assets/test.png";
+// import ph from "./assets/test.png";
 export const webPortfolio = [
   {
     id: 1,
