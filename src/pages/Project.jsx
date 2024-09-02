@@ -61,11 +61,11 @@ const Project = () => {
               </button>
             </a>
 
-            <a href={project.github} target="_blank" rel="noopener noreferrer">
+            {/* <a href={project.github} target="_blank" rel="noopener noreferrer">
               <button className="  rounded uppercase bg-purple-700 lg:text-lg font-semibold text-white px-8 py-2 lg:py-4  hover:bg-purple-100 hover:text-purple-700   ">
                 Github repo
               </button>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

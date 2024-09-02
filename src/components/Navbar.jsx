@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import { IoCloseOutline } from "react-icons/io5";
 // import resume from "../assets/fs.pdf";
-import logo from "../assets/me.jpg";
+import logo from "../assets/lopez.jpg";
 
 import { Link } from "react-scroll";
 import { useNavigate } from "react-router-dom";
@@ -21,7 +21,7 @@ const Navbar = () => {
             className=" h-[40px] w-[40px] lg:w-[50px] lg:h-[50px] object-cover rounded-full"
           />
           <h1 className=" uppercase text-gray-300  text-lg lg:text-xl  font-bold  ">
-            Rex atuzie
+            Anyie Lopez
           </h1>
         </div>
 

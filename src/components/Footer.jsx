@@ -8,13 +8,12 @@ const Footer = () => {
         <div className=" flex-col gap-5 lg:gap-0 lg:flex-row flex justify-between">
           <div>
             <h1 className=" uppercase  text-xl  font-bold text-gray-300  mb-4">
-              Rex atuzie
+              Anyie Lopez
             </h1>
 
             <p className=" text-gray-400 text-sm lg:max-w-lg">
-              A Frontend focused Web Developer building the Frontend of Websites
-              and Web Applications that leads to the success of the overall
-              product
+              A Fullstack Web Developer focused on building Websites and Web
+              Applications that leads to the success of the overall product
             </p>
           </div>
 
